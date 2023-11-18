@@ -1,3 +1,5 @@
+@use '../variables';   
+
 .button{
     padding: 16px;
     font-size: 18px;
@@ -8,7 +10,7 @@
 
 
     &--primary{
-        color:#fff;
+        color:variables.$main-txt-color;
         background-color: #4f2ac3;
         border-radius: 14px;
         
